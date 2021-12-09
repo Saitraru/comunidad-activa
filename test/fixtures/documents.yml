@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  folio: MyString
+  document_type: one
+  expense: one
+  supplier: one
+
+two:
+  folio: MyString
+  document_type: two
+  expense: two
+  supplier: two

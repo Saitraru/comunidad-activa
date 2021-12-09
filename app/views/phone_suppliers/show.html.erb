@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @phone_supplier.telefono %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @phone_supplier.supplier_id %>
+</p>
+
+<%= link_to 'Edit', edit_phone_supplier_path(@phone_supplier) %> |
+<%= link_to 'Back', phone_suppliers_path %>
